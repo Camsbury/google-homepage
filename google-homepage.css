@@ -58,3 +58,25 @@ li #apps {
     width: 296px;
     display: block;
 }
+
+#search-bar {
+    position:relative;
+    top: 224px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+    display: block;
+}
+
+#search-bar input {
+    width: 628px;
+    height: 29px;
+    background: none;
+    border: solid 1px #D6D6D6;
+}
+
+#mic{
+    float: right;
+    margin-top: -27px;
+    margin-right: 10px;
+}
