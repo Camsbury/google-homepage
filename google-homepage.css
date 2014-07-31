@@ -2,6 +2,32 @@ body, p, h1, a {
     font-family: arial, sans-serif;
 }
 
+ul {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #404040;
+}
+
+#signin>a {
+    color: #FFFFFF;
+    background-color: #4285f4;
+    padding: 4px 7px 4px 7px;
+}
+
 #logo {
     position:relative;
     top: 203px;
