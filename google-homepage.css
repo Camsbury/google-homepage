@@ -80,3 +80,60 @@ li #apps {
     margin-top: -27px;
     margin-right: 10px;
 }
+
+#buttons {
+    position:relative;
+    top: 234px;
+    left: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 254px;
+    display: block;
+}
+
+#buttons li {
+    padding: 9px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background: #eeeeee;
+    border: solid 1px #d6d6d6;
+}
+
+#buttons a {
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+}
+
+#footbar {
+    position: absolute;
+    width: 96%;
+    left:30px;
+    bottom: 14px;
+}
+
+#footbar ul{
+    width: 100%;
+    background: #eeeeee;
+    border: solid 1px #d6d6d6;
+    margin-right: -43px;
+    padding: 12px 30px 12px 27px;
+}
+
+#footbar ul #left{
+    margin-left: 3px;
+    float: left;
+}
+
+#footbar ul #right{
+    margin-right: -4px;
+    float: right;
+}
+
+#footbar #left li {padding-right: 24px;}
+#footbar #right li {padding-left: 24px;}
